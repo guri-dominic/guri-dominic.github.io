@@ -29,12 +29,15 @@
                   <!-- At Google I've worked on <a href="https://www.google.com/glass/start/">Glass</a>,  <a href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens Blur</a>, <a href="https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">HDR+</a>, <a href="https://blog.google/products/google-ar-vr/introducing-next-generation-jump/">VR</a>, <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">Portrait Mode</a>, <a href="https://ai.googleblog.com/2020/12/portrait-light-enhancing-portrait.html">Portrait Light</a>, and <a href="https://blog.google/products/maps/three-maps-updates-io-2022/">Maps</a>. I did my PhD at <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I was advised by <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>. I've received the <a href="https://www.thecvf.com/?page_id=413#YRA">PAMI Young Researcher Award</a>. -->
                 </p>
                 <p style="text-align:center">
-                  <a href="mailto:dominic.guri@gmail.com">Email</a> &nbsp;/&nbsp;
                   <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp; -->
                   <!-- <a href="data/bio.txt">Bio</a> &nbsp;/&nbsp; -->
                   <a href="https://scholar.google.com/citations?hl=en&user=b4dw_fYAAAAJ">Scholar</a> &nbsp;/&nbsp;
                   <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp; -->
                   <a href="https://github.com/guri-dominic/">Github</a>
+                   &nbsp;/&nbsp;
+                  <!-- <a href="{dguri} AT {andrew} DOT {cmu} DOT {edu}">Email</a>  -->
+                  d{lastname} {at} andrew {dot} cmu {dot} edu
+                  <!-- &nbsp;/&nbsp; -->
                 </p>
               </td>
               <td style="padding:2.5%;width:40%;max-width:40%">
@@ -47,12 +50,221 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  <!-- I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields. Some papers are <span class="highlight">highlighted</span>. -->
+                <!-- <span style="color: #ff0000">TODO:</span> -->
+                <!-- I am interested in building useful robots for real-world deployments.  -->
+                <!-- <span>&#8212;</span>  -->
+                <!-- Useful robots that are capable because they are customized for the task. -->
+                <!-- <span class="highlight">highlighted</span>. -->
                 </p>
+                <p><strong>Interests</strong>: Optimal Robot Design/Optimization; Mobile Manipulation; Navigation; Planning; Field Robots; </p>
               </td>
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+<!-- <tr onmouseout="power_stop()" onmouseover="power_start()" bgcolor="#ffffd0"> -->
+<tr onmouseout="power_stop()" onmouseover="power_start()" bgcolor="#ffffff">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='power_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/power.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/cornbot.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function power_start() {
+            document.getElementById('power_image').style.opacity = "1";
+          }
+
+          function power_stop() {
+            document.getElementById('power_image').style.opacity = "0";
+          }
+          power_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2311.03697">
+      <span class="papertitle">Towards autonomous crop monitoring: Inserting sensors in cluttered environments</span>
+        </a>
+        <br>
+        Moonyoung Lee, Aaron Berger, <strong>Dominic Guri</strong>, Kevin Zhang, Lisa Coffey, George Kantor, Oliver Kroemer
+        <br>
+        <em>arXiv</em>, 2024
+        <br>
+        <a href="https://arxiv.org/pdf/2311.03697">arXiv</a>
+        <p></p>
+        <p>
+          <!-- The design and development of Hefty, a modular, reconfigurable robot platform for mobile manipulation in agriculture. -->
+          <!-- A slight tweak to the Box-Cox power transform generalizes a variety of curves, losses, kernel functions, probability distributions, bump functions, and neural network activation functions. -->
+        </p>
+      </td>
+    </tr>
+
+
+<!-- <tr onmouseout="power_stop()" onmouseover="power_start()" bgcolor="#ffffd0"> -->
+<tr onmouseout="power_stop()" onmouseover="power_start()" bgcolor="#ffffff">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='power_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/power.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/hefty.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function power_start() {
+            document.getElementById('power_image').style.opacity = "1";
+          }
+
+          function power_stop() {
+            document.getElementById('power_image').style.opacity = "0";
+          }
+          power_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2402.18710">
+      <span class="papertitle">Hefty: A Modular Reconfigurable Robot for Advancing Robot Manipulation in Agriculture
+</span>
+        </a>
+        <br>
+        <strong>Dominic Guri</strong> Moonyoung Lee, Oliver Kroemer, George Kantor
+        <br>
+        <em>arXiv</em>, 2024
+        <br>
+        <a href="https://kantor-lab.github.io/cornbot/">Website</a>\
+        <a href="https://arxiv.org/pdf/2402.18710">arXiv</a>
+        <p></p>
+        <p>
+          The design and development of Hefty, a modular, reconfigurable robot platform for mobile manipulation in agriculture.
+        <!-- A slight tweak to the Box-Cox power transform generalizes a variety of curves, losses, kernel functions, probability distributions, bump functions, and neural network activation functions. -->
+        </p>
+      </td>
+    </tr>
+
+
+<!-- <tr onmouseout="power_stop()" onmouseover="power_start()" bgcolor="#ffffd0"> -->
+<tr onmouseout="power_stop()" onmouseover="power_start()" bgcolor="#ffffff">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='power_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/power.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/0.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function power_start() {
+            document.getElementById('power_image').style.opacity = "1";
+          }
+
+          function power_stop() {
+            document.getElementById('power_image').style.opacity = "0";
+          }
+          power_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://ojs.aaai.org/index.php/ICAPS/article/download/27176/26949">
+      <span class="papertitle">Runahead A*: Speculative Parallelism for A* with Slow Expansions</span>
+        </a>
+        <br>
+         Mohammad Bakhshalipour, Mohamad Qadri, <strong>Dominic Guri</strong>, Seyed Borna Ehsani, Maxim Likhachev, Phillip B Gibbons
+        <br>
+        <em>AAAI</em>, 2023
+        <br>
+        <a href="https://github.com/cmu-roboarch/runahead-astar/">Github</a>\
+        <a href="https://ojs.aaai.org/index.php/ICAPS/article/download/27176/26949">PDF</a>
+        <p></p>
+        <p>
+          <!-- The design and development of Hefty, a modular, reconfigurable robot platform for mobile manipulation in agriculture. -->
+        <!-- A slight tweak to the Box-Cox power transform generalizes a variety of curves, losses, kernel functions, probability distributions, bump functions, and neural network activation functions. -->
+        </p>
+      </td>
+    </tr>
+
+
+<!-- <tr onmouseout="power_stop()" onmouseover="power_start()" bgcolor="#ffffd0"> -->
+<tr onmouseout="power_stop()" onmouseover="power_start()" bgcolor="#ffffff">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='power_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/power.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/0.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function power_start() {
+            document.getElementById('power_image').style.opacity = "1";
+          }
+
+          function power_stop() {
+            document.getElementById('power_image').style.opacity = "0";
+          }
+          power_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://dl.acm.org/doi/pdf/10.1145/3470496.3527383">
+      <span class="papertitle">Racod: algorithm/hardware co-design for mobile robot path planning</span>
+        </a>
+        <br>
+         Mohammad Bakhshalipour, Seyed Borna Ehsani, Mohamad Qadri, <strong>Dominic Guri</strong>, Maxim Likhachev, Phillip B Gibbons
+        <br>
+        <em>ACM</em>, 2022
+        <br>
+        <a href="https://dl.acm.org/doi/pdf/10.1145/3470496.3527383">PDF</a>
+        <p></p>
+        <p>
+          <!-- The design and development of Hefty, a modular, reconfigurable robot platform for mobile manipulation in agriculture. -->
+        <!-- A slight tweak to the Box-Cox power transform generalizes a variety of curves, losses, kernel functions, probability distributions, bump functions, and neural network activation functions. -->
+        </p>
+      </td>
+    </tr>
+
+
+<!-- <tr onmouseout="power_stop()" onmouseover="power_start()" bgcolor="#ffffd0"> -->
+<tr onmouseout="power_stop()" onmouseover="power_start()" bgcolor="#ffffff">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='power_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/power.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/0.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function power_start() {
+            document.getElementById('power_image').style.opacity = "1";
+          }
+
+          function power_stop() {
+            document.getElementById('power_image').style.opacity = "0";
+          }
+          power_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2102.06261">
+      <span class="papertitle">Speculative Path Planning</span>
+        </a>
+        <br>
+        Mohammad Bakhshalipour, Mohamad Qadri, <strong>Dominic Guri</strong>
+        <br>
+        <em>arXiv</em>, 2021
+        <br>
+        <a href="https://github.com/bakhshalipour/speculative-path-planning">Github</a>\
+        <a href="https://arxiv.org/pdf/2102.06261">arXiv</a>\
+        <a href="https://youtu.be/zf6-Sv3IwXg">Video</a>
+        <p></p>
+        <p>
+          <!-- The design and development of Hefty, a modular, reconfigurable robot platform for mobile manipulation in agriculture. -->
+        <!-- A slight tweak to the Box-Cox power transform generalizes a variety of curves, losses, kernel functions, probability distributions, bump functions, and neural network activation functions. -->
+        </p>
+      </td>
+    </tr>
 
 
             
