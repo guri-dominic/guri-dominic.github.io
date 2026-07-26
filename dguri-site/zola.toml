@@ -35,9 +35,9 @@ default_theme = "dark"
 
 header_nav = [
   { name_en = "/Home", url = "/" },
-  { name_en = "/Research", url = "/research" },
-  { name_en = "/Posts", url = "/posts" },
-  { name_en = "/Projects", url = "/projects" },
+  #{ name_en = "/Research", url = "/research" },
+  #{ name_en = "/Posts", url = "/posts" },
+  #{ name_en = "/Projects", url = "/projects" },
   { name_en = "/About", url = "/about" }
 ]
 
