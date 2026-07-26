@@ -1,5 +1,6 @@
 # The URL the site will be built for
-base_url = "https://guri-dominic.github.io"
+# base_url = "https://guri-dominic.github.io"
+base_url = "https://dominicguri.com"
 theme = "anemone"
 compile_sass = true
 build_search_index = true
