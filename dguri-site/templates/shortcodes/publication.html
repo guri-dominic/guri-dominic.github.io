@@ -1,0 +1,40 @@
+<article class="publication">
+    <a
+      class="publication-image-link"
+      href="{{ paper_url }}"
+      aria-label="Open paper: {{ title }}"
+    >
+      <img
+        class="publication-image"
+        src="{{ get_url(path=image) }}"
+        alt="{{ image_alt }}"
+        loading="lazy"
+      >
+    </a>
+
+  <div class="publication-content">
+    <h3 class="publication-title">
+      <a href="{{ paper_url }}">{{ title }}</a>
+    </h3>
+
+    <p class="publication-authors">
+      {{ authors | safe }}
+    </p>
+
+    <p class="publication-venue">
+      {{ venue }}, {{ year }}
+    </p>
+
+    <div class="publication-links">
+      <a href="{{ paper_url }}">Paper</a>
+
+      {% if pdf_url %}
+        <a href="{{ pdf_url }}">PDF</a>
+      {% endif %}
+
+      {% if code_url %}
+        <a href="{{ code_url }}">Code</a>
+      {% endif %}
+    </div>
+  </div>
+</article>
