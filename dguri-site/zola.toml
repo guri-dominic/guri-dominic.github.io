@@ -1,14 +1,8 @@
 # The URL the site will be built for
 base_url = "https://guri-dominic.github.io"
 theme = "anemone"
-# theme = "apollo"
-
-# Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
-
-# Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
-
 minify_html = true
 generate_feeds = true
 feed_filenames = ["atom.xml"]
