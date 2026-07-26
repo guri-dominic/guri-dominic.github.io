@@ -1,0 +1,55 @@
+# The URL the site will be built for
+base_url = "https://guri-dominic.github.io"
+theme = "anemone"
+compile_sass = true
+build_search_index = true
+minify_html = true
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+generate_sitemap = true
+generate_robots_txt = true
+
+taxonomies = [
+    { name = "tags", feed = true }
+]
+
+[markdown]
+smart_punctuation = true
+insert_anchor_links = "right"
+
+[markdown.highlighting]
+error_on_missing_language = true
+theme = "github-light"
+
+[extra]
+toc = true
+
+# Put all your custom variables here
+default_theme = "dark"
+
+header_nav = [
+  { name_en = "/Home", url = "/" },
+  #{ name_en = "/Research", url = "/research" },
+  #{ name_en = "/Posts", url = "/posts" },
+  #{ name_en = "/Projects", url = "/projects" },
+  { name_en = "/About", url = "/about" }
+]
+
+menu = [
+  { name = "Posts", url = "/posts" },
+  { name = "Projects", url = "/projects" },
+  { name = "About", url = "/about" }
+]
+
+socials = []
+
+# [[extra.socials]]
+
+# [[extra.socials]]
+# name = "github"
+# url = "https://github.com/guri-dominic"
+
+# [[extra.socials]]
+# name = "twitter"
+# url = "https://twitter.com/yourhandle"
+

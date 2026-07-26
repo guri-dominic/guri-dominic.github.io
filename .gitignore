@@ -1,2 +1,7 @@
+*.swo
 *.swp
 data/Barron*
+
+/dguri-site/public/
+
+
