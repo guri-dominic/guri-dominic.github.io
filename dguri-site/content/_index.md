@@ -2,6 +2,8 @@
 title = "Home"
 +++
 
+My name is Dominic Guri. I earned my Ph.D. in Robotics from Carnegie Mellon University’s Robotics Institute, where my research focused on designing, evaluating, and deploying mobile manipulation systems for cluttered agricultural environments.
+
 # Publications List
 
 

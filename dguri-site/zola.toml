@@ -33,7 +33,7 @@ header_nav = [
   #{ name_en = "/Research", url = "/research" },
   #{ name_en = "/Posts", url = "/posts" },
   #{ name_en = "/Projects", url = "/projects" },
-  { name_en = "/About", url = "/about" }
+  #{ name_en = "/About", url = "/about" }
 ]
 
 menu = [
